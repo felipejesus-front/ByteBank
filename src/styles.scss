@@ -1,1 +1,29 @@
-/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;500&display=swap');
+
+:root {
+  --primary: #8600cf;
+  --secondary: ##3C184F;
+  --padding: 15px;
+  --cinza: #405040;
+  --cinza-claro:#fcfcfc;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: inherit;
+}
+
+* {
+  font-family: "Roboto Slab", sans-serif;
+  font-weight: 400;
+}
+
+.container {
+  max-width: 400px;
+  margin: 0 auto;
+}
